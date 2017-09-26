@@ -1,0 +1,26 @@
+{
+  "name": "assign1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "minesweeperTest.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start --reporters dots --single-run",
+    "watchtest": "karma start --reporters dots",
+    "start": "open gui/index.html",
+    "startonwin": "start gui/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "karma": "^1.7.1",
+    "karma-chai": "^0.1.0",
+    "karma-cli": "^1.0.1",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^3.5.3"
+  }
+}
